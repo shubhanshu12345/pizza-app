@@ -1,0 +1,47 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "auth-service",
+    "dateExported": "2024-03-18T17:07:24.977Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "610421e7-d88c-4b1c-b9e5-a3234986a947",
+            "colId": "3b2313af-0991-48a5-ab5c-4db53bd40499",
+            "containerId": "",
+            "name": "login",
+            "url": "http://localhost:5010/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-18T17:04:41.295Z",
+            "modified": "2024-03-18T17:05:07.982Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"architjain@gmail.com\",\n  \"password\": \"test@123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "382e7451-a5bd-409d-846b-e114dfb63f52",
+            "colId": "3b2313af-0991-48a5-ab5c-4db53bd40499",
+            "containerId": "",
+            "name": "register",
+            "url": "http://localhost:5010/auth/register",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-03-18T17:05:21.794Z",
+            "modified": "2024-03-18T17:05:58.128Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\": \"Archit\",\n  \"lastName\": \"Jain\",\n  \"email\": \"architjain@gmail.com\",\n  \"password\": \"test@123\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

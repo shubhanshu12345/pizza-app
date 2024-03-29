@@ -1,0 +1,8 @@
+dist
+node_modules
+
+
+.eslintrc.js
+ios/
+android/
+*.config.js
